@@ -4,6 +4,9 @@ import {
   AboutUsBear,
   AboutusTitle,
   BearLogo,
+  BeraLogoMobile,
+  Followus,
+  FooterBear,
   HeadingImage,
   PartnerHeader,
   PartnerLogo,
@@ -18,14 +21,15 @@ import {
 import EvenPhaseCard from "../components/EvenPhaseCard";
 import OddPhaseCard from "../components/OddPhaseCard";
 import PartnerCard from "../components/PartnerCard";
+import SocialLinks from "../components/SocialLinks";
 
 const HomePage = () => {
   return (
-    <div className="mt-10 ">
-      <header className="">
+    <div className=" ">
+      <header className="pt-[5rem]">
         <img
           src={HeadingImage}
-          className="w-[22rem] lg:w-[28rem] mx-auto my-2 "
+          className="w-[22rem] lg:w-[30rem] mx-auto my-2 "
           alt="heading"
         />
 
@@ -33,12 +37,12 @@ const HomePage = () => {
       </header>
 
       <main>
-        <section id="about" className="relative  lg:bottom-20">
+        <section id="about" className=" ">
           <div>
             <img src={AboutHeader} alt="About Header" className="w-full" />
           </div>
           <div className="bg-[#FCCB06] flex flex-col lg:flex-row-reverse items-center relative bottom-1  gap-10 lg:gap-20 justify-center  ">
-            <article className="mt-25 lg:mt-0 relative lg:text-[20px] w-[22rem] lg:w-[30rem]  flex flex-col gap-8 px-4 lg:px-10    items-center pt-8 h-[32rem] lg:h-[39rem] bg-white border-2 lg:border-3  rounded-[24px] shadow-[4px_2px_0px_0px] lg:shadow-[10px_4px_0px_0px]   ">
+            <article className="lg:z-1 mt-25 lg:mt-0 relative lg:text-[20px] w-[22rem] lg:w-[30rem]  flex flex-col gap-8 px-4 lg:px-10    items-center pt-8 h-[32rem] lg:h-[39rem] bg-white border-2 lg:border-3  rounded-[24px] shadow-[4px_2px_0px_0px] lg:shadow-[10px_4px_0px_0px]   ">
               <div className="relative bottom-[9.5rem]   ">
                 <img src={aboutBrain} alt="" className="  mx-auto   " />
                 <img
@@ -72,7 +76,7 @@ const HomePage = () => {
           </div>
         </section>
 
-        <section id="roadmap" className="relative  bottom-2 lg:bottom-42   ">
+        <section id="roadmap" className=" lg:mt-[-6rem]    ">
           <img
             src={RoadMapHeader}
             alt="About Header"
@@ -184,9 +188,9 @@ const HomePage = () => {
           {/* Add roadmap content here */}
         </section>
 
-        <section id="partner" className="relative bottom-[7rem] lg:bottom-40 ">
+        <section id="partner" className=" ">
           <img src={PartnerHeader} alt="" className="w-full" />
-          <div className="bg-[#FCCB06] pb-20 lg:pb-60">
+          <div className="bg-[#FCCB06] pb-25 md:pb-40 lg:pb-60">
             <img
               src={PartnerLogo}
               alt=""
@@ -201,14 +205,48 @@ const HomePage = () => {
           </div>
         </section>
 
-        <section id="social" className="relative bottom-[11rem] lg:bottom-90">
+        <section
+          id="social"
+          className=" mt-[-4rem] md:mt-[-8rem] lg:mt-[-16rem] "
+        >
           <img src={SocialHeader} className="w-full" alt="" />
 
-          <div className="bg-red-400 absolute bottom-0 h-[10rem] ">sdsd</div>
-        </section>
-      </main>
+          <div className="bg-[#f4ebce] flex flex-col gap-5 items-center justify-center lg:bg-[url(./assets/images/bearTransparent.png)] w-full lg:bg-contain lg:bg-center  lg:bg-no-repeat   ">
+            <img
+              src={FooterBear}
+              className="w-[240px] right-4 relative top-[2.1rem]  lg:hidden"
+              alt=""
+            />
+            <section className="relative z-1 flex flex-col gap-5 items-center justify-center w-full bg-[url(./assets/images/bearTransparent.png)]  bg-contain bg-center  bg-no-repeat lg:h-[38rem] mb-15 lg:mb-0 ">
+              <div className="w-[160px] h-[160px]  border-[3.2px] border-[#000] p-3  bg-white rounded-[35px] shadow-[4px_6px_0px_0px]  flex items-center justify-center">
+                <img
+                  src={BeraLogoMobile}
+                  alt="logomobilr"
+                  className="w-full "
+                />
+              </div>
 
-      <footer>{/* Add footer content here */}</footer>
+              <img src={Followus} alt="" className="mt-5" />
+
+              <SocialLinks isInFooter={true} />
+              <img
+                src={FooterBear}
+                className=" hidden xl:flex absolute left-[47rem] top-[6rem] right-0 mx-auto lg:w-[380px] "
+                alt=""
+              />
+
+              <img
+                src={Roadmapcloud}
+                className=" hidden xl:flex absolute  top-[6rem] left-0 mx-auto  "
+                alt=""
+              />
+            </section>
+          </div>
+        </section>
+        <footer className="relative bg-white text-center py-5 border-y-[4px] mt-[-2rem]  p-10">
+          Copyright: © 2025 $Brained Bears. All Rights Reserved.
+        </footer>
+      </main>
     </div>
   );
 };

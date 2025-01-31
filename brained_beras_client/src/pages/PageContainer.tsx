@@ -4,7 +4,7 @@ import { CloudImage } from "../assets";
 
 const PageContainer = () => {
   return (
-    <div className="bg-[url(./assets/images/Headerbg.svg)] bg-no-repeat bg-cover  bg-center h-[25rem] md:h-[35rem] lg:h-[55rem] ">
+    <div className="bg-[url(./assets/images/Headerbg.svg)] bg-no-repeat bg-cover  bg-center h-[25rem] md:h-[35rem] lg:h-[64rem] ">
       <main className="  ">
         {" "}
         <img

@@ -25,6 +25,8 @@ import PartnerHeader from "./images/partnerheader.svg"
 import PartnerLogo from "./images/partnerlogo.png"
 import CoincapLogo from "./images/Coinmarket.svg"
 import SocialHeader from "./images/socialHeader.svg"
+import FooterBear from "./images/FooterBear.svg"
+import Followus from "./images/followUsLogo.png"
 export {
   Headerbg,
   BeraLogoMobile,
@@ -52,5 +54,6 @@ export {
   PartnerHeader,
   PartnerLogo,
   CoincapLogo,
-  SocialHeader
+  SocialHeader,
+  FooterBear, Followus
 };

@@ -1,4 +1,5 @@
-import { BeraLogoMobile, CloseIcon, IGlogo, TwitterLogo, Xlogo } from "../assets";
+import { BeraLogoMobile, CloseIcon } from "../assets";
+import SocialLinks from "./SocialLinks";
 
 interface NavbarModalProps {
   onClose: () => void;
@@ -50,20 +51,7 @@ const NavbarModal = ({ onClose }: NavbarModalProps) => {
             <span className=" block  py-2 pl-4 rounded-md   "> PRESALE</span>
           </li>
         </ul>
-        <ul className="border-1 h-[3rem] md:h-[4rem] flex items-center  bg-white rounded-[.75rem] shadow-[2px_3px_0px_0px] gap-2 px-2 ">
-          <button className="flex items-center justify-center w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem]  border rounded-[8px] shadow-[2px_2px_0px_0px]">
-            {" "}
-            <img src={Xlogo} alt="" />{" "}
-          </button>
-          <button className="flex items-center justify-center w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem]  border rounded-[8px] shadow-[2px_2px_0px_0px]">
-            {" "}
-            <img src={TwitterLogo} alt="" />
-          </button>
-          <button className="flex items-center justify-center w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem]  border rounded-[8px] shadow-[2px_2px_0px_0px]">
-            {" "}
-            <img src={IGlogo} alt="" />
-          </button>
-        </ul>
+        <SocialLinks />
       </div>
     </div>
   );

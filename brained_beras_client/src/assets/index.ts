@@ -27,6 +27,11 @@ import CoincapLogo from "./images/Coinmarket.svg"
 import SocialHeader from "./images/socialHeader.svg"
 import FooterBear from "./images/FooterBear.svg"
 import Followus from "./images/followUsLogo.png"
+import PresaleBottom from "./images/presaleBottom.svg"
+import PresaleBear from "./images/presaleBear.svg"
+import PresaleTop from "./images/presalecardtop.png"
+import Colons from "./images/colons.svg"
+import tooltipIcon from "./images/tooltipIcon.svg"
 export {
   Headerbg,
   BeraLogoMobile,
@@ -55,5 +60,5 @@ export {
   PartnerLogo,
   CoincapLogo,
   SocialHeader,
-  FooterBear, Followus
+  FooterBear, Followus, PresaleBottom, PresaleBear, PresaleTop, Colons , tooltipIcon
 };

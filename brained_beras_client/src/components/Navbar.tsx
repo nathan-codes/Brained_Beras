@@ -30,7 +30,7 @@ const Navbar = () => {
  
 
   return (
-    <nav className="relative w-full flex justify-between p-3 lg:p-0 items-center pt-4 lg:pt-10 z-10 max-w-[1200px] mx-auto">
+    <nav className="relative w-full flex justify-between p-3 lg:p-0 items-center pt-4 lg:pt-10 z-10 lg:max-w-[80%] mx-auto">
       <button className="w-[3rem] h-[3rem] lg:w-[4rem] lg:h-[4rem] border border-[#000] rounded-[10px] p-1 boxShadow bg-white drop-shadow-2xl flex items-center justify-center">
         <img src={BeraLogoMobile} alt="logomobilr" className="w-full" />
       </button>

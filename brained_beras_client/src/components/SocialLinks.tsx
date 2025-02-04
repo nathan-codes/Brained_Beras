@@ -9,15 +9,15 @@ const SocialLinks = ({ isInFooter = false }: socialLinksProps) => {
         isInFooter ? "bg-none " : "bg-white border-1  shadow-[2px_3px_0px_0px]"
       } rounded-[.75rem]  gap-3 px-2 `}
     >
-      <button className="bg-white flex items-center justify-center w-[3rem] h-[3rem]  border rounded-[8px] shadow-[2px_2px_0px_0px]">
+      <button className="cursor-pointer bg-white flex items-center justify-center w-[3rem] h-[3rem]  border rounded-[8px] shadow-[2px_2px_0px_0px]">
         {" "}
         <img src={Xlogo} alt="" />{" "}
       </button>
-      <button className="bg-white flex items-center justify-center w-[3rem] h-[3rem]  border rounded-[8px] shadow-[2px_2px_0px_0px]">
+      <button className="cursor-pointer bg-white flex items-center justify-center w-[3rem] h-[3rem]  border rounded-[8px] shadow-[2px_2px_0px_0px]">
         {" "}
         <img src={TwitterLogo} alt="" />
       </button>
-      <button className="bg-white flex items-center justify-center w-[3rem] h-[3rem]  border rounded-[8px] shadow-[2px_2px_0px_0px]">
+      <button className="cursor-pointer bg-white flex items-center justify-center w-[3rem] h-[3rem]  border rounded-[8px] shadow-[2px_2px_0px_0px]">
         {" "}
         <img src={IGlogo} alt="" />
       </button>

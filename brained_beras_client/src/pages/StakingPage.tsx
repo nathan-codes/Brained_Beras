@@ -89,7 +89,7 @@ const StakingPage = () => {
                   </div>
                 </div>
                 <button className="bg-[#FCCB06] border-2 w-full rounded-[11px] h-[56px] mt-2  mb-3">
-                  <span className="text-center text-black  ">Convert</span>
+                  <span className="text-center text-black  ">Stake</span>
                 </button>
               </article>
             </div>

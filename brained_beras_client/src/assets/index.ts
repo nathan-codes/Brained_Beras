@@ -21,23 +21,26 @@ import brainIcon from "./images/brainIcon2.svg";
 import Roadmapbear from "./images/roadmapbear.svg";
 import Roadmapbear2 from "./images/roadmapbear2.svg";
 import Roadmapcloud from "./images/roadmapcloud.svg";
-import PartnerHeader from "./images/partnerheader.svg"
-import PartnerLogo from "./images/partnerlogo.png"
-import CoincapLogo from "./images/Coinmarket.svg"
-import SocialHeader from "./images/socialHeader.svg"
-import FooterBear from "./images/FooterBear.svg"
-import Followus from "./images/followUsLogo.png"
-import PresaleBottom from "./images/presaleBottom.svg"
-import PresaleBear from "./images/presaleBear.svg"
-import PresaleTop from "./images/presalecardtop.png"
-import Colons from "./images/colons.svg"
-import tooltipIcon from "./images/tooltipIcon.svg"
-import bearlogoSmall from "./images/bearlogosmall.png"
-import stakingBear from "./images/totalStakingBear.svg"
-import LinkIcon from "./images/linkIcon.svg"
-import lockIcon from "./images/lockIcon.svg"
-import Oicon from "./images/Oicon.svg"
-import StakingFooter from "./images/stakingfooter.svg"
+import PartnerHeader from "./images/partnerheader.svg";
+import PartnerLogo from "./images/partnerlogo.png";
+import CoincapLogo from "./images/Coinmarket.svg";
+import SocialHeader from "./images/socialHeader.svg";
+import FooterBear from "./images/FooterBear.svg";
+import Followus from "./images/followUsLogo.png";
+import PresaleBottom from "./images/presaleBottom.svg";
+import PresaleBear from "./images/presaleBear.svg";
+import PresaleTop from "./images/presalecardtop.png";
+import Colons from "./images/colons.svg";
+import tooltipIcon from "./images/tooltipIcon.svg";
+import bearlogoSmall from "./images/bearlogosmall.png";
+import stakingBear from "./images/totalStakingBear.svg";
+import LinkIcon from "./images/linkIcon.svg";
+import lockIcon from "./images/lockIcon.svg";
+import Oicon from "./images/Oicon.svg";
+import StakingFooter from "./images/stakingfooter.svg";
+import Padlock1 from "./images/padlock1.svg";
+import Padlock2 from "./images/padlock2.svg";
+import Clock from "./images/clock.svg";
 export {
   Headerbg,
   BeraLogoMobile,
@@ -66,5 +69,27 @@ export {
   PartnerLogo,
   CoincapLogo,
   SocialHeader,
-  FooterBear, Followus, PresaleBottom, PresaleBear, PresaleTop, Colons , tooltipIcon, bearlogoSmall , stakingBear,  LinkIcon, lockIcon, Oicon , StakingFooter
+  FooterBear,
+  Followus,
+  PresaleBottom,
+  PresaleBear,
+  PresaleTop,
+  Colons,
+  tooltipIcon,
+  bearlogoSmall,
+  stakingBear,
+  LinkIcon,
+  lockIcon,
+  Oicon,
+  StakingFooter,
+  Padlock1,
+  Padlock2,
+  Clock,
 };
+
+
+export type StatIconType =
+  | typeof lockIcon
+  | typeof Padlock1
+  | typeof Padlock2
+  | typeof Clock;

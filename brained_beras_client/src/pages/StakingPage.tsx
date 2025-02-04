@@ -96,7 +96,7 @@ const StakingPage = () => {
           </section>
         </main>
       </div>
-      <div className=" mt-[-5rem] w-full relative ">
+      <div className="mt-[-2rem] lg:mt-[-5rem] w-full relative ">
         <img src={StakingFooter} alt="" className="w-full" />
       </div>
       <footer className="w-full bg-white text-center py-2 border-y-[4px]  p-10">

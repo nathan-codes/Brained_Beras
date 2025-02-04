@@ -23,7 +23,7 @@ const NavbarModal = ({ onClose }: NavbarModalProps) => {
       onClick={onClose}
     >
       <div
-        className="w-[350px] h-full bg-white rounded-[1.5rem] flex flex-col justify-between p-4 relative z-50"
+        className="w-[350px] h-full max-h-[600px] bg-white rounded-[1.5rem] flex flex-col justify-between p-4 relative z-50"
         onClick={(evt) => evt.stopPropagation()}
       >
         <div className="flex justify-between items-center">

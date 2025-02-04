@@ -64,8 +64,8 @@ const PresalePage = () => {
                 <div>1 $BRAINED = $0.009876544</div>
               </div>
 
-              <button className="bg-[#FCCB06] border-2 w-full rounded-[8px] py-2 mt-2 shadow-[2px_4px_0px_0px]">
-                <span className="text-center text-white font-outline-2">
+              <button className="bg-[#FCCB06] border-2 w-full rounded-[8px] py-2 mt-2 shadow-[2px_4px_0px_0px] mb-3 lg:mb-0">
+                <span className="text-center text-white font-outline-2 ">
                   Connect Wallet
                 </span>
                 

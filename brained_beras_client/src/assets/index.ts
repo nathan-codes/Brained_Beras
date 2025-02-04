@@ -32,6 +32,10 @@ import PresaleBear from "./images/presaleBear.svg"
 import PresaleTop from "./images/presalecardtop.png"
 import Colons from "./images/colons.svg"
 import tooltipIcon from "./images/tooltipIcon.svg"
+import bearlogoSmall from "./images/bearlogosmall.png"
+import stakingBear from "./images/totalStakingBear.svg"
+import LinkIcon from "./images/linkIcon.svg"
+import lockIcon from "./images/lockIcon.svg"
 export {
   Headerbg,
   BeraLogoMobile,
@@ -60,5 +64,5 @@ export {
   PartnerLogo,
   CoincapLogo,
   SocialHeader,
-  FooterBear, Followus, PresaleBottom, PresaleBear, PresaleTop, Colons , tooltipIcon
+  FooterBear, Followus, PresaleBottom, PresaleBear, PresaleTop, Colons , tooltipIcon, bearlogoSmall , stakingBear,  LinkIcon, lockIcon
 };

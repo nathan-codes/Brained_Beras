@@ -1,19 +1,23 @@
-import { HeadingImage } from "../assets";
+import LinksGroup from "../components/LinksGroup";
+import StatsGroup from "../components/StatsGroup";
+import TotalStakingCard from "../components/TotalStakingCard";
 
 const StakingPage = () => {
   return (
-    <div>
-      <header className="pt-[2rem]" id="home">
-        <img
-          src={HeadingImage}
-          className="w-[15rem] lg:w-[18rem] mx-auto my-2 "
-          alt="heading"
-        />
-      </header>
-      <main></main>
-      <footer className="fixed bottom-0 w-full bg-white text-center py-2 border-y-[4px] mt-[-1rem]  p-10">
+    <div className=" mx-3 lg:max-w-[1200px] lg:mx-auto">
+      <main className="mt-2 lg:mt-7">
+        <TotalStakingCard />
+        <section className="lg:hidden my-5">
+          <LinksGroup />
+        </section>
+
+        <section className="my-6">
+            <StatsGroup />
+        </section>
+      </main>
+      {/* <footer className=" bg-white text-center py-2 border-y-[4px]  p-10">
         Copyright: © 2025 $Brained Bears. All Rights Reserved.
-      </footer>
+      </footer> */}
     </div>
   );
 };

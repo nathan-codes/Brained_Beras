@@ -62,7 +62,7 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
             {formatNumber(value).map((digit, idx) => (
               <span
                 key={idx}
-                className="bg-white rounded-[13px] border-2 w-[35px] flex items-center justify-center h-[38px] text-[20px] font-[400]"
+                className="bg-white rounded-[13px] border-2 w-[30px] lg:w-[35px] flex items-center justify-center h-[38px] text-[20px] font-[400]"
               >
                 {digit}
               </span>

@@ -1,4 +1,4 @@
-import { IGlogo, TwitterLogo, Xlogo } from "../assets";
+import { Discord, Xlogo } from "../assets";
 interface socialLinksProps {
   isInFooter?: boolean;
 }
@@ -13,13 +13,10 @@ const SocialLinks = ({ isInFooter = false }: socialLinksProps) => {
         {" "}
         <img src={Xlogo} alt="" />{" "}
       </button>
+     
       <button className="cursor-pointer bg-white flex items-center justify-center w-[3rem] h-[3rem]  border rounded-[8px] shadow-[2px_2px_0px_0px]">
         {" "}
-        <img src={TwitterLogo} alt="" />
-      </button>
-      <button className="cursor-pointer bg-white flex items-center justify-center w-[3rem] h-[3rem]  border rounded-[8px] shadow-[2px_2px_0px_0px]">
-        {" "}
-        <img src={IGlogo} alt="" />
+        <img src={Discord} alt="" />
       </button>
     </div>
   );

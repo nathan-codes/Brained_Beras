@@ -25,7 +25,7 @@ const PresalePage = () => {
 
               <div className="bg-[#F4EBCE] shadow-[2px_4px_0px_0px] px-2 py-3  border-3 rounded-[16px]">
                 <h2 className=" text-center text-[#FEDB63] font-outline-2   ">
-                  Until next price
+                  Until it ends
                 </h2>
                 <Countdown targetDate={presaleEndDate} />
               </div>

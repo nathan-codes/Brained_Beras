@@ -41,6 +41,7 @@ import StakingFooter from "./images/stakingfooter.svg";
 import Padlock1 from "./images/padlock1.svg";
 import Padlock2 from "./images/padlock2.svg";
 import Clock from "./images/clock.svg";
+import Discord from "./images/discord.svg"
 export {
   Headerbg,
   BeraLogoMobile,
@@ -85,6 +86,7 @@ export {
   Padlock1,
   Padlock2,
   Clock,
+  Discord
 };
 
 
